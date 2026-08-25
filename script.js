@@ -242,5 +242,28 @@ console.log(sub(20, 10));
  let studentss = ["Ahmed" , "Ali" , "Azhar" , "Arham"];
 
  for(let students of studentss){
-    console.log(`Students:` , students);
+    console.log(`Student:` , students);
+ }
+
+ // 7. Array mein values ka square
+
+ let numbers1 = [2 , 3, 4];
+ for(let num of numbers1){
+    console.log(num*num);
+ }
+
+
+// 8. String ko uppercase mein print karna
+let colors = ["red" , "blue" , "green"];
+for(let color of colors){
+    console.log(color.toUpperCase());
+}
+// 9. Array mein 18 se greater ages
+
+ let ages = [10 , 25 , 16 , 20];
+ 
+ for( let age of ages){
+    if(age >= 18){
+        console.log(age);
+    }
  }
