@@ -94,35 +94,61 @@ let updateStd = {
     ...student,
     age: 31
 }
- console.log(updateStd);
+console.log(updateStd);
 
- // Output: {name: 'Ahmed', age: 31}
+// Output: {name: 'Ahmed', age: 31}
 
- // 10. Function mein array ki values pass karna
+// 10. Function mein array ki values pass karna
 
-  function calc( a , b , c){
-  return a + b + c;
-  }
-  let values = [ 10 , 20 , 30];
-  console.log(calc(...values));
-  
- // Output: 60
+function calc(a, b, c) {
+    return a + b + c;
+}
+let values = [10, 20, 30];
+console.log(calc(...values));
+
+// Output: 60
 
 //   Arrow Function 
- // 1. Simple arrow function
+// 1. Simple arrow function
 
- const greet = () =>{
+const greet = () => {
     console.log(`Hello World`);
- }
- greet();
+}
+greet();
 
 //  Output : Hello World
 
 // 2. Arrow function with one parameter
 
- const number = (num) =>{
-  return num*num;
- }
- console.log(number(5));
+const number = (num) => {
+    return num * num;
+}
+console.log(number(5));
 
 //  Output : 25
+
+// 3. Short form (implicit return)
+
+const double = numb => numb * 2;
+console.log(double(10));
+
+//  Output : 20
+
+// 4. Two parameters
+
+const add = (a, b) => a + b;
+console.log(add(10, 20));
+
+//  Output : 30
+
+// 5. Subtraction
+let sub = (a, b) => a - b;
+console.log(sub(20, 10));
+
+// Output : 10
+
+// 6. Check even number
+
+ const isEven = num => num %2 === 0;
+ console.log(isEven(4));
+ 
