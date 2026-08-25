@@ -149,121 +149,133 @@ console.log(sub(20, 10));
 
 // 6. Check even number
 
- const isEven = num => num %2 === 0;
- console.log(isEven(4));
+const isEven = num => num % 2 === 0;
+console.log(isEven(4));
 
 //  Output : true 
 
- // 7. Greeting with a name
+// 7. Greeting with a name
 
- const welcome = name => `Welcome ${name}`
- console.log(welcome("Fiza"));
+const welcome = name => `Welcome ${name}`
+console.log(welcome("Fiza"));
 
- //  Output : Welcome Fiza
+//  Output : Welcome Fiza
 
- // 8. Multiply three numbers
+// 8. Multiply three numbers
 
- const multiply = (a , b , c) => a*b*c;
- console.log(multiply(3 , 2 ,4));
+const multiply = (a, b, c) => a * b * c;
+console.log(multiply(3, 2, 4));
 
-  //  Output : 24
+//  Output : 24
 
- // 9. Arrow function with if condition
+// 9. Arrow function with if condition
 
- const checkAge = age =>{
-    if(age >= 18){
+const checkAge = age => {
+    if (age >= 18) {
         return "Adult"
     }
-    else{
+    else {
         return "Minor";
     }
- }
- console.log(checkAge(16));
+}
+console.log(checkAge(16));
 
 //  Output : Minor 
 
- // 10. Arrow function with array map()
+// 10. Arrow function with array map()
 
- const num = [1 , 2, 3, 4, 5];
- const doubled = num.map(numb => numb*2);
- console.log(doubled);
+const num = [1, 2, 3, 4, 5];
+const doubled = num.map(numb => numb * 2);
+console.log(doubled);
 
 //  Output: [2, 4, 6, 8, 10]
 
- //   For in for of 
-  // 1. Array ke elements print karna
+//   For in for of 
+// 1. Array ke elements print karna
 
-  let std = ["amna" , "hania" , "Luna" , "Lena"];
-  
-  for(let students of std){
+let std = ["amna", "hania", "Luna", "Lena"];
+
+for (let students of std) {
     console.log(students);
-  };
+};
 
 //   Output: amna hania Luna  Lena
 
- // 2. Numbers print karna
+// 2. Numbers print karna
 
- let numbs = [10, 20, 30, 40];
+let numbs = [10, 20, 30, 40];
 
- for(let nums of numbs){
-  console.log(nums);
- }
+for (let nums of numbs) {
+    console.log(nums);
+}
 
- //   Output: 10 , 2- 30 , 40
- // 3. Array ka total nikalna
+//   Output: 10 , 2- 30 , 40
+// 3. Array ka total nikalna
 
- let Num = [10 , 20 , 10];
- let total = 0;
- for(let num of Num){
-    total+= num;
- }
- console.log(total);
+let Num = [10, 20, 10];
+let total = 0;
+for (let num of Num) {
+    total += num;
+}
+console.log(total);
 
 //  Output : 40 
 
- // 4. String ke characters print karna
+// 4. String ke characters print karna
 
- let Name = "Ali";
- for(let name of Name){
+let Name = "Ali";
+for (let name of Name) {
     console.log(name);
- }
+}
 
 //  Output : A , l , i 
 
 // 5. Even numbers print karna
- let value = [1 , 2, , 3 , 4 , 5 , 6];
- for(let values of value){
-    if(value %2  === 0){
-   console.log(values);
+let value = [1, 2, , 3, 4, 5, 6];
+for (let values of value) {
+    if (value % 2 === 0) {
+        console.log(values);
     }
- }
+}
 
- // 6. Array ke names print karna
- let studentss = ["Ahmed" , "Ali" , "Azhar" , "Arham"];
+// 6. Array ke names print karna
+let studentss = ["Ahmed", "Ali", "Azhar", "Arham"];
 
- for(let students of studentss){
-    console.log(`Student:` , students);
- }
+for (let students of studentss) {
+    console.log(`Student:`, students);
+}
 
- // 7. Array mein values ka square
+// 7. Array mein values ka square
 
- let numbers1 = [2 , 3, 4];
- for(let num of numbers1){
-    console.log(num*num);
- }
+let numbers1 = [2, 3, 4];
+for (let num of numbers1) {
+    console.log(num * num);
+}
 
 
 // 8. String ko uppercase mein print karna
-let colors = ["red" , "blue" , "green"];
-for(let color of colors){
+let colors = ["red", "blue", "green"];
+for (let color of colors) {
     console.log(color.toUpperCase());
 }
 // 9. Array mein 18 se greater ages
 
- let ages = [10 , 25 , 16 , 20];
- 
- for( let age of ages){
-    if(age >= 18){
+let ages = [10, 25, 16, 20];
+
+for (let age of ages) {
+    if (age >= 18) {
         console.log(age);
     }
- }
+}
+
+// 10. Array of objects ke saath
+
+let users = [
+    { name: "sana", age: 30 },
+    { name: "ayesha", age: 10 },
+    { name: "sania", age: 40 }
+];
+
+for(let user of users){
+    console.log(user.name , user.age);
+}
