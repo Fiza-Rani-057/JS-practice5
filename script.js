@@ -443,3 +443,19 @@ students5.set(105 , 'Ahmed');
  console.log(student9.has("Sara"));
  console.log(student9.has("Azka"));
 
+ //5
+  
+ const num3 = new Set();
+
+ num3.add(10);
+ num3.add(50);
+ num3.add(17);
+ num3.add(16);
+ num3.add(45);
+ num3.add(38);
+ num3.add(23);
+ num3.add(46);
+ num3.add(34);
+ num3.add(78);
+
+ console.log(num3.size);
