@@ -107,3 +107,22 @@ let updateStd = {
   console.log(calc(...values));
   
  // Output: 60
+
+//   Arrow Function 
+ // 1. Simple arrow function
+
+ const greet = () =>{
+    console.log(`Hello World`);
+ }
+ greet();
+
+//  Output : Hello World
+
+// 2. Arrow function with one parameter
+
+ const number = (num) =>{
+  return num*num;
+ }
+ console.log(number(5));
+
+//  Output : 25
