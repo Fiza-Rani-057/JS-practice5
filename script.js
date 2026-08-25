@@ -159,4 +159,25 @@ console.log(sub(20, 10));
  const welcome = name => `Welcome ${name}`
  console.log(welcome("Fiza"));
 
- //  Output : Hello Fiza
+ //  Output : Welcome Fiza
+
+ // 8. Multiply three numbers
+
+ const multiply = (a , b , c) => a*b*c;
+ console.log(multiply(3 , 2 ,4));
+
+  //  Output : 24
+
+ // 9. Arrow function with if condition
+
+ const checkAge = age =>{
+    if(age >= 18){
+        return "Adult"
+    }
+    else{
+        return "Minor";
+    }
+ }
+ console.log(checkAge(16));
+
+//  Output : Minor 
