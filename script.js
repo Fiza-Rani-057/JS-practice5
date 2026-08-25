@@ -151,4 +151,12 @@ console.log(sub(20, 10));
 
  const isEven = num => num %2 === 0;
  console.log(isEven(4));
- 
+
+//  Output : true 
+
+ // 7. Greeting with a name
+
+ const welcome = name => `Welcome ${name}`
+ console.log(welcome("Fiza"));
+
+ //  Output : Hello Fiza
