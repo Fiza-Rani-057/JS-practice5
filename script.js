@@ -425,3 +425,21 @@ students5.set(105 , 'Ahmed');
 
   console.log(student8.has("Ali"));
   console.log(student8.has("Mahira"));
+
+  //4
+
+  const students9 = new Set();
+
+  const student9 = new Set();
+
+  student9.add("Ahmed");
+  student9.add("Ali");
+  student9.add("Azka");
+  student9.add("Sara");
+  student9.add("Sana");
+
+ student9.delete("Sara");
+
+ console.log(student9.has("Sara"));
+ console.log(student9.has("Azka"));
+
