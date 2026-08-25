@@ -189,3 +189,14 @@ console.log(sub(20, 10));
  console.log(doubled);
 
 //  Output: [2, 4, 6, 8, 10]
+
+ //   For in for of 
+  // 1. Array ke elements print karna
+
+  let std = ["amna" , "hania" , "Luna" , "Lena"];
+  
+  for(let students of std){
+    console.log(students);
+  };
+
+//   Output: amna hania Luna  Lena
