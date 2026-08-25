@@ -98,4 +98,12 @@ let updateStd = {
 
  // Output: {name: 'Ahmed', age: 31}
 
- 
+ // 10. Function mein array ki values pass karna
+
+  function calc( a , b , c){
+  return a + b + c;
+  }
+  let values = [ 10 , 20 , 30];
+  console.log(calc(...values));
+  
+ // Output: 60
