@@ -181,3 +181,11 @@ console.log(sub(20, 10));
  console.log(checkAge(16));
 
 //  Output : Minor 
+
+ // 10. Arrow function with array map()
+
+ const num = [1 , 2, 3, 4, 5];
+ const doubled = num.map(numb => numb*2);
+ console.log(doubled);
+
+//  Output: [2, 4, 6, 8, 10]
