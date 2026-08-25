@@ -311,3 +311,25 @@ students2.set(102, "Sana");
 
 console.log(students2.has(101));
 console.log(students2.has(102));
+
+//4
+
+const students4 = new Map();
+
+students4.set(101, "Sara");
+students4.set(102 , 20)
+
+students4.delete(101);
+console.log(students4.has(101));
+
+//5
+
+const students5 = new Map();
+
+students5.set(101 , 'mahnoor')
+students5.set(102 , 'Sana');
+students5.set(103, 'Arreba');
+students5.set(104, 'Alina');
+students5.set(105 , 'Ahmed');
+
+ console.log(students5.size);
