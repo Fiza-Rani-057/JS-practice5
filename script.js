@@ -366,3 +366,19 @@ students5.set(105 , 'Ahmed');
   for(let Name of student7.values()){
     console.log(Name);
   }
+  //10
+
+  let person2 ={
+    Name :"Mahira",
+    Age: 16
+  }
+  let person3 ={
+    Name : "Ayesha",
+    Age: 20
+  }
+  const jobs = new Map();
+  jobs.set(person2 , "Teacher");
+  jobs.set(person3 , "Developer");
+
+  console.log(jobs.get(person2));
+  console.log(jobs.get(person3));
