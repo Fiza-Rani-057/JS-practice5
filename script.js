@@ -302,3 +302,12 @@ map.set('age' , 20);
 
 console.log(map.get("name"));
 console.log(map.get("age"));
+
+//3
+
+const students2 = new Map();
+students2.set(101 , "Aliana");
+students2.set(102, "Sana");
+
+console.log(students2.has(101));
+console.log(students2.has(102));
