@@ -416,3 +416,12 @@ students5.set(105 , 'Ahmed');
   //3
 
   const student8 = new Set();
+
+  student8.add("Ahmed");
+  student8.add("Ali");
+  student8.add("Azka");
+  student8.add("Sara");
+  student8.add("Sana");
+
+  console.log(student8.has("Ali"));
+  console.log(student8.has("Mahira"));
