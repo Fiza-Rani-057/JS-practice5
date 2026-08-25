@@ -242,6 +242,5 @@ console.log(sub(20, 10));
  let studentss = ["Ahmed" , "Ali" , "Azhar" , "Arham"];
 
  for(let students of studentss){
-    console.log(`Students:` , student);
-    break;
+    console.log(`Students:` , students);
  }
