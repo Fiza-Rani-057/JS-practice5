@@ -353,4 +353,16 @@ students5.set(105 , 'Ahmed');
   console.log(students6.get(101));
 
   //8
-  
+
+  const student7 = new Map();
+  student7.set(101 , "Ali");
+  student7.set(102 , "Ahmed");
+
+
+  for(let id of student7.keys()){
+  console.log(id);
+  }
+
+  for(let Name of student7.values()){
+    console.log(Name);
+  }
