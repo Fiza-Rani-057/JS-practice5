@@ -280,7 +280,7 @@ for (let user of users) {
     console.log(user.name, user.age);
 }
 
-//  Set Map 
+//   Map 
 
 //1
 
@@ -382,3 +382,37 @@ students5.set(105 , 'Ahmed');
 
   console.log(jobs.get(person2));
   console.log(jobs.get(person3));
+
+//    Set 
+
+ //1
+
+ const Numbers = new Set();
+  Numbers.add(10);
+  Numbers.add(20);
+  Numbers.add(30);
+  Numbers.add(40);
+  Numbers.add(50);
+  Numbers.add(60);
+  Numbers.add(70);
+  Numbers.add(80);
+  Numbers.add(90);
+  Numbers.add(100);
+
+  console.log(Numbers);
+
+  //2 
+  
+  const num2 = new Set();
+  num2.add(10);
+  num2.add(10);
+  num2.add(10);
+  num2.add(10);
+  num2.add(10);
+  num2.add(10);
+
+  console.log(num2);
+
+  //3
+
+  const student8 = new Set();
