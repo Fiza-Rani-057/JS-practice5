@@ -341,3 +341,16 @@ students5.set(105 , 'Ahmed');
   const marks = new Map();
   marks.set(person1 , 90);
   console.log(marks.get(person1));
+
+  //7
+
+  const students6 = new Map();
+  students6.set(101 ,{
+    name : "Ali",
+    age: 19
+  });
+
+  console.log(students6.get(101));
+
+  //8
+  
