@@ -220,3 +220,28 @@ console.log(sub(20, 10));
  console.log(total);
 
 //  Output : 40 
+
+ // 4. String ke characters print karna
+
+ let Name = "Ali";
+ for(let name of Name){
+    console.log(name);
+ }
+
+//  Output : A , l , i 
+
+// 5. Even numbers print karna
+ let value = [1 , 2, , 3 , 4 , 5 , 6];
+ for(let values of value){
+    if(value %2  === 0){
+   console.log(values);
+    }
+ }
+
+ // 6. Array ke names print karna
+ let studentss = ["Ahmed" , "Ali" , "Azhar" , "Arham"];
+
+ for(let students of studentss){
+    console.log(`Students:` , student);
+    break;
+ }
