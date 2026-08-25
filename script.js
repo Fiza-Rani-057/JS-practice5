@@ -200,3 +200,23 @@ console.log(sub(20, 10));
   };
 
 //   Output: amna hania Luna  Lena
+
+ // 2. Numbers print karna
+
+ let numbs = [10, 20, 30, 40];
+
+ for(let nums of numbs){
+  console.log(nums);
+ }
+
+ //   Output: 10 , 2- 30 , 40
+ // 3. Array ka total nikalna
+
+ let Num = [10 , 20 , 10];
+ let total = 0;
+ for(let num of Num){
+    total+= num;
+ }
+ console.log(total);
+
+//  Output : 40 
