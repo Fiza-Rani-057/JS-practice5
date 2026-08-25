@@ -333,3 +333,11 @@ students5.set(104, 'Alina');
 students5.set(105 , 'Ahmed');
 
  console.log(students5.size);
+
+  //6
+  const person1 = {
+    Name : "Ali"
+  }
+  const marks = new Map();
+  marks.set(person1 , 90);
+  console.log(marks.get(person1));
