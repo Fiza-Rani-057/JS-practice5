@@ -276,6 +276,29 @@ let users = [
     { name: "sania", age: 40 }
 ];
 
-for(let user of users){
-    console.log(user.name , user.age);
+for (let user of users) {
+    console.log(user.name, user.age);
 }
+
+//  Set Map 
+
+//1
+
+const student1 = new Map();
+student1.set(101, 'Ali');
+student1.set(102, 'Sara');
+student1.set(103, 'Alina');
+
+console.log(student1.get(101));
+console.log(student1.get(102));
+console.log(student1.get(103));
+
+//2
+
+const map = new Map();
+
+map.set( 'name' , 'Alia');
+map.set('age' , 20);
+
+console.log(map.get("name"));
+console.log(map.get("age"));
