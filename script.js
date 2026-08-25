@@ -459,3 +459,8 @@ students5.set(105 , 'Ahmed');
  num3.add(78);
 
  console.log(num3.size);
+
+ // 6 
+ const number4 = [10 , 20 , 45 , 56 , 78];
+ const uniqueNumbers = new Set(numbers);
+ console.log(uniqueNumbers);
