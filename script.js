@@ -26,60 +26,76 @@ let newFruite = [...Fruite, "Cherry"];
 
 console.log(newFruite);
 
- //  Output :  ['Apple', 'Mango', 'Cherry']
+//  Output :  ['Apple', 'Mango', 'Cherry']
 
- // 4. Array ke start mein value add karna
+// 4. Array ke start mein value add karna
 
- let numbers = [2 , 3 , 4, 5];
- let newNumbers = [1, ...numbers];
- 
- console.log(newNumbers);
+let numbers = [2, 3, 4, 5];
+let newNumbers = [1, ...numbers];
 
- //  Output :  [1, 2, 3, 4, 5]
+console.log(newNumbers);
 
- // 5. String ko array mein convert karna
+//  Output :  [1, 2, 3, 4, 5]
 
- let name = "Ali";
- let letters = [...name];
+// 5. String ko array mein convert karna
 
- console.log(letters);
+let name = "Ali";
+let letters = [...name];
 
- //  Output : ['A', 'l', 'i']
+console.log(letters);
 
- // 6. Math.max() ke saath
+//  Output : ['A', 'l', 'i']
 
- let nums = [10 , 20 , 30 , 40 , 8];
- let maxValue = [Math.max(...nums)];
+// 6. Math.max() ke saath
 
- console.log(maxValue);
+let nums = [10, 20, 30, 40, 8];
+let maxValue = [Math.max(...nums)];
 
- //  Output :[40]
+console.log(maxValue);
 
- // 7. Object ko copy karna
+//  Output :[40]
 
-  let user = {
-    Name : "Ali",
-    age : 20
-  };
+// 7. Object ko copy karna
 
-  let newUser = {...user};
-  console.log(newUser);
+let user = {
+    Name: "Ali",
+    age: 20
+};
 
-   //  Output : {Name: 'Ali', age: 20}
+let newUser = { ...user };
+console.log(newUser);
 
-   // 8. Objects ko merge karna
+//  Output : {Name: 'Ali', age: 20}
 
-   let obj1 = {
+// 8. Objects ko merge karna
+
+let obj1 = {
     name: "Ali"
-   }
-   let obj2 = {
-    age : 20
-   }
- let person = {
+}
+let obj2 = {
+    age: 20
+}
+let person = {
     ...obj1,
     ...obj2
- };
+};
 
-  console.log(person);
+console.log(person);
 
-  // Output: {name: 'Ali', age: 20}
+// Output: {name: 'Ali', age: 20}
+
+// 9. Object ki property update karna
+
+let student = {
+    name: "Ahmed",
+    age: 30
+}
+let updateStd = {
+    ...student,
+    age: 31
+}
+ console.log(updateStd);
+
+ // Output: {name: 'Ahmed', age: 31}
+
+ 
